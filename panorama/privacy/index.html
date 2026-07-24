@@ -4,80 +4,129 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Panorama — Privacy Policy</title>
-<style>
-  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; max-width: 680px;
-         margin: 3rem auto; padding: 0 1.5rem; color: #1c1c1e; line-height: 1.6; }
-  h1 { font-size: 1.6rem; }
-  h2 { font-size: 1.15rem; margin-top: 2rem; }
-  a { color: #0066cc; }
-  .effective-date { color: #6e6e73; font-size: 0.9rem; }
-</style>
+<meta name="description" content="Panorama's privacy policy — the app collects nothing; everything happens on your iPhone.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Ccircle cx='20' cy='20' r='18' fill='%23100D1B'/%3E%3Cpath d='M3 25H37' stroke='%23F1ECE2' stroke-width='2'/%3E%3Ccircle cx='16' cy='15' r='5' fill='%23FF8F63'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="/panorama/assets/style.css">
 </head>
 <body>
-<h1>Panorama — Privacy Policy</h1>
-<p class="effective-date">Effective date: July 1, 2026</p>
+<div class="wrap">
 
-<p>Panorama is built on a simple idea: your panoramas are yours. The app captures, stitches, stores,
-and shares everything <strong>on your device</strong>. There are no accounts, no servers, and no
-analytics — so there is no data for us to collect, sell, or lose.</p>
+  <header class="site">
+    <a class="mark" href="/panorama/">
+      <svg viewBox="0 0 40 40" aria-hidden="true">
+        <circle cx="20" cy="20" r="18" fill="none" stroke="currentColor" stroke-width="1.6"/>
+        <path d="M3 25H37" stroke="currentColor" stroke-width="1.6"/>
+        <circle cx="16" cy="15" r="5" fill="url(#sun)"/>
+        <defs>
+          <linearGradient id="sun" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0" style="stop-color:var(--gold)"/>
+            <stop offset="1" style="stop-color:var(--coral)"/>
+          </linearGradient>
+        </defs>
+      </svg>
+      <span>Panorama</span>
+    </a>
+    <nav class="site">
+      <a href="/panorama/support/">Support</a>
+      <a href="/panorama/privacy/">Privacy</a>
+    </nav>
+  </header>
+  <hr class="rule">
 
-<h2>The short version</h2>
-<ul>
-  <li><strong>We collect nothing.</strong> Panorama has no backend. Your data never reaches us,
-      because there is no "us" on the other end of a network connection.</li>
-  <li><strong>Everything stays on your iPhone</strong> unless <em>you</em> choose to share a panorama.</li>
-  <li><strong>No accounts. No tracking. No advertising. No third-party analytics or SDKs.</strong></li>
-</ul>
+  <h1>Privacy Policy</h1>
+  <p class="tag">Effective date: July 1, 2026</p>
 
-<h2>What the app uses, and why</h2>
-<p>Panorama asks for a few system permissions purely to do its job. Each is used <strong>on your
-device only</strong>:</p>
-<ul>
-  <li><strong>Camera</strong> — to capture the photos that make up a spherical panorama. Captured
-      imagery is processed and stitched on your device and saved into the app's private storage.
-      It is never uploaded.</li>
-  <li><strong>Motion &amp; orientation</strong> — to track where you're pointing the phone while
-      capturing, and to let you look around saved panoramas by moving your device. This data is
-      used in the moment and not recorded or transmitted.</li>
-  <li><strong>Location (while using the app, optional)</strong> — if you allow it, Panorama tags a
-      panorama with where you captured it, so you can remember the place. The coordinate is stored
-      <strong>on your device</strong> in the panorama's metadata and embedded into the image file's
-      GPS information. It is never sent to us.</li>
-  <li><strong>Photos / Files</strong> — saved panoramas live in the app's own storage. Saving to your
-      photo library or files happens only when you ask for it.</li>
-</ul>
+  <p class="lede">Panorama is built on a simple idea: your panoramas are yours. The app captures,
+  stitches, stores, and shares everything <strong>on your device</strong>. There are no accounts,
+  no servers, and no analytics — so there is no data for us to collect, sell, or lose.</p>
 
-<h2>Data we collect</h2>
-<p><strong>None.</strong> Panorama does not collect, transmit, or share your personal data. It
-contains no analytics, no advertising identifiers, no tracking, and no third-party SDKs that would
-do so on its behalf.</p>
+  <div class="section">
+    <h2>The short version</h2>
+    <div class="callout">
+      <ul>
+        <li><strong>We collect nothing.</strong> Panorama has no backend. Your data never reaches
+        us, because there is no "us" on the other end of a network connection.</li>
+        <li><strong>Everything stays on your iPhone</strong> unless <em>you</em> choose to share a
+        panorama.</li>
+        <li><strong>No accounts. No tracking. No advertising. No third-party analytics or
+        SDKs.</strong></li>
+      </ul>
+    </div>
+  </div>
 
-<h2>Sharing a panorama (and location in shared images)</h2>
-<p>When you tap Share, Panorama hands the panorama image to iOS's standard share sheet, and you
-choose where it goes (AirDrop, Messages, Photos, Files, another app, etc.). At that point the image
-leaves your device <strong>because you sent it</strong> — Panorama is not involved in the
-destination.</p>
-<p>If a panorama is geotagged, that location travels <strong>inside the shared image file</strong> as
-standard GPS metadata, exactly as photos from the Camera app do. Panorama's Settings tab includes a
-"Strip location when sharing" option if you'd rather leave it out of what you share; you can also
-remove location per-share from the Photos app (Options → Location).</p>
+  <div class="section">
+    <h2>What the app uses, and why</h2>
+    <p>Panorama asks for a few system permissions purely to do its job. Each is used <strong>on
+    your device only</strong>:</p>
+    <ul class="plain">
+      <li><strong>Camera</strong> — to capture the photos that make up a spherical panorama.
+      Captured imagery is processed and stitched on your device and saved into the app's private
+      storage. It is never uploaded.</li>
+      <li><strong>Motion &amp; orientation</strong> — to track where you're pointing the phone
+      while capturing, and to let you look around saved panoramas by moving your device. This
+      data is used in the moment and not recorded or transmitted.</li>
+      <li><strong>Location (while using the app, optional)</strong> — if you allow it, Panorama
+      tags a panorama with where you captured it, so you can remember the place. The coordinate
+      is stored <strong>on your device</strong> in the panorama's metadata and embedded into the
+      image file's GPS information. It is never sent to us.</li>
+      <li><strong>Photos / Files</strong> — saved panoramas live in the app's own storage. Saving
+      to your photo library or files happens only when you ask for it.</li>
+    </ul>
+  </div>
 
-<h2>Children's privacy</h2>
-<p>Panorama collects no personal information from anyone, including children. The app is not directed
-at children and contains no accounts, messaging, or data collection.</p>
+  <div class="section">
+    <h2>Data we collect</h2>
+    <p><strong>None.</strong> Panorama does not collect, transmit, or share your personal data. It
+    contains no analytics, no advertising identifiers, no tracking, and no third-party SDKs that
+    would do so on its behalf.</p>
+  </div>
 
-<h2>Security</h2>
-<p>Because your panoramas and their metadata never leave your device (unless you share them), they
-are protected by your iPhone's own security and your device passcode/biometrics. There is no remote
-database that could be breached.</p>
+  <div class="section">
+    <h2>Sharing a panorama (and location in shared images)</h2>
+    <p>When you tap Share, Panorama hands the panorama image to iOS's standard share sheet, and
+    you choose where it goes (AirDrop, Messages, Photos, Files, another app, etc.). At that point
+    the image leaves your device <strong>because you sent it</strong> — Panorama is not involved
+    in the destination.</p>
+    <p>If a panorama is geotagged, that location travels <strong>inside the shared image
+    file</strong> as standard GPS metadata, exactly as photos from the Camera app do. Panorama's
+    Settings tab includes a "Strip location when sharing" option if you'd rather leave it out of
+    what you share; you can also remove location per-share from the Photos app (Options →
+    Location).</p>
+  </div>
 
-<h2>Changes to this policy</h2>
-<p>If the app's behavior ever changes in a way that affects this policy, we'll update this page and
-revise the effective date above. Material changes will be reflected here before they take effect.</p>
+  <div class="section">
+    <h2>Children's privacy</h2>
+    <p>Panorama collects no personal information from anyone, including children. The app is not
+    directed at children and contains no accounts, messaging, or data collection.</p>
+  </div>
 
-<h2>Contact</h2>
-<p>Questions about privacy in Panorama? Contact Dan Monahan at
-<a href="mailto:wispier_halls_8g@icloud.com">wispier_halls_8g@icloud.com</a>. See also <a href="/panorama/support/">Support</a>.</p>
+  <div class="section">
+    <h2>Security</h2>
+    <p>Because your panoramas and their metadata never leave your device (unless you share them),
+    they are protected by your iPhone's own security and your device passcode/biometrics. There
+    is no remote database that could be breached.</p>
+  </div>
 
+  <div class="section">
+    <h2>Changes to this policy</h2>
+    <p>If the app's behavior ever changes in a way that affects this policy, we'll update this
+    page and revise the effective date above. Material changes will be reflected here before they
+    take effect.</p>
+  </div>
+
+  <div class="section">
+    <h2>Contact</h2>
+    <p>Questions about privacy in Panorama? Contact Dan Monahan at
+    <a href="mailto:wispier_halls_8g@icloud.com">wispier_halls_8g@icloud.com</a>. See also
+    <a href="/panorama/support/">Support</a>.</p>
+  </div>
+
+  <footer class="site">
+    <a href="/panorama/">Panorama</a>
+    <a href="/panorama/support/">Support</a>
+    <span class="trust">no accounts · no cloud · nothing collected</span>
+  </footer>
+
+</div>
 </body>
 </html>
